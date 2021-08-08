@@ -1,0 +1,24 @@
+/* .btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ } */
+  
+  .collapse:not(.show) {
+    display: none !important;
+}
+
+.dbg{
+  border: 1px solid red;
+}
+
+@media only screen and (max-width: 576px) {
+    .red-mb-20-sm {
+      /* margin-top: 10px; */
+      margin-bottom: 20px;
+    }
+
+    .red-w-100-sm{
+      /* display: block; */
+      width: 100%;
+    }
+  }
